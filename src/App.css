@@ -22,3 +22,11 @@ body {
   height: 650px;
   margin-top: -310px;
 }
+
+
+/* Smaller Screen */
+@media screen and (max-width:1200px) {
+  .hero-banner-img {
+    display: none;
+  }
+}
