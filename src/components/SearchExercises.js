@@ -38,7 +38,7 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
   return (
     <Stack
       alignItems="center"
-      mt="35px"
+      mt="25px"
       justifyContent="center"
       p="20px"
     >
@@ -47,7 +47,7 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
         sx={{
           fontSize: { lg: '44px', xs: '30px'}
         }}
-        mb="50px"
+        mb="40px"
         textAlign="center"
       >
         Awesome Workouts You <br />
@@ -55,7 +55,7 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
       </Typography>
       <Box
         position="relative"
-        mb="72px" 
+        mb="55px" 
       >
         <TextField 
           sx={{
