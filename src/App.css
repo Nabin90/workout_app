@@ -89,6 +89,12 @@ body {
   transform: scale(1.3, 1.3);
 }
 
+/* Detail Image */
+.detail-image {
+  width: 480px;
+  height: 520px;
+}
+
 /* Smaller Screen */
 @media screen and (max-width:1200px) {
   .hero-banner-img {
