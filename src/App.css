@@ -95,14 +95,45 @@ body {
   height: 520px;
 }
 
+/* Exercise Video */
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+}
+
+
 /* Smaller Screen */
 @media screen and (max-width:1200px) {
-  .hero-banner-img {
-    display: none;
+  .detail-image {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  .react-horizontal-scrolling-menu--scroll-container {
+    width: 500px;
   }
 
   .left-arrow,
   .right-arrow {
     position: static !important;
   }
+
+  .hero-banner-img {
+    display: none;
+  }
+
+  .exercise-card {
+    width: 320px;
+  }
+
+  .exercise-video {
+    width: 320px;
+    height: 300px;
+  }
+
 }
